@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Personal loan approved — €12,000",
+    "description": "Standard personal loan for home renovation. Credit score 720. DTI within policy.",
+    "status": "approved",
+    "amount": 12000,
+    "currency": "EUR",
+    "category": "loan"
+  },
+  {
+    "title": "Transaction flagged — unusual wire transfer",
+    "description": "Outgoing wire of €45,000 to new beneficiary. Customer's first international wire.",
+    "status": "flagged",
+    "amount": 45000,
+    "currency": "EUR",
+    "category": "transaction"
+  },
+  {
+    "title": "KYC verification failed — identity mismatch",
+    "description": "Document scan returned mismatch on date of birth field. Manual review required.",
+    "status": "rejected",
+    "category": "kyc"
+  },
+  {
+    "title": "AML screening — low risk profile",
+    "description": "Periodic AML check passed. No PEP or sanctions matches.",
+    "status": "approved",
+    "category": "compliance"
+  }
+]

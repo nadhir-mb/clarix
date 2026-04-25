@@ -1,0 +1,27 @@
+# env files — never commit secrets
+.env
+.env.local
+.env*.local
+backend/.env
+
+# deps
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+__pycache__/
+*.pyc
+venv/
+backend/venv/
+.venv/
+
+# build output
+dist/
+build/
+frontend/dist/
+frontend/build/
+
+# misc
+.DS_Store
+*.log
+.vercel
